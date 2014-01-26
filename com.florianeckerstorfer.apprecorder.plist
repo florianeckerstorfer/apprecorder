@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.florianeckerstorfer.apprecorder</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>UserName</key>
+    <string>florian</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>php</string>
+        <string>apprecorder.php</string>
+        <string>/path/to/app/data/%Y%M%D-apps.csv</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/path/to/apprecorder</string>
+  </dict>
+</plist>
