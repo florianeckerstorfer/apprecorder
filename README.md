@@ -15,9 +15,9 @@ $ php apprecorder.php FILENAME_PATTERN [INTERVAL]
 
 ### Arguments
 - Filename pattern (required): filenames are created based on this pattern; the following replacements are done:
-    - %Y => current year
-    - %M => current month
-    - %D => current day
+    - `%Y` => current year
+    - `%M` => current month
+    - `%D` => current day
  - Interval (optional): number of seconds between each recording; smaller intervals will record more accurate data but will also require more space. The default value is 5 seconds.
 
 ### Examples
