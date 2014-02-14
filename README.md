@@ -18,7 +18,7 @@ $ php apprecorder.php FILENAME_PATTERN [INTERVAL]
     - `%Y` => current year
     - `%M` => current month
     - `%D` => current day
- - Interval (optional): number of seconds between each recording; smaller intervals will record more accurate data but will also require more space. The default value is 5 seconds.
+- Interval (optional): number of seconds between each recording; smaller intervals will record more accurate data but will also require more space. The default value is 5 seconds.
 
 ### Examples
 
